@@ -1,0 +1,33 @@
+# Project 5: Reader of Books
+
+* Author: Robert Faricy
+* Class: CS121 Section 6
+* Semester: Fall 2019 
+
+## Overview
+
+This Java application maintains a gui that allows a user to load a .csv file of
+format title, author, genre, filename. Then creating a book object based on the filename attribute
+to the corresponding .txt in the same folder. Book object can be read in the reader window and provides
+Current/Total Page number, Title, Author, and PageUp/PageDown buttons.
+
+## Compiling and Using
+
+To compile, execute the following command in the main project directory:
+```
+$ javac ReaderOfBooks.java
+```
+
+Run the compiled class with the command:
+```
+$ java ReaderOfBooks
+```
+
+Navigate the menu with your mouse. make sure in the load books text box to include a .csv with
+the local filepath attribute as the 4th column.
+Once a .csv has been loaded you may open and read each book, or clear the list to load a new library.
+
+
+## Sources used
+Piazza
+Provided BigLayoutDemo.java and support files from instructor.
